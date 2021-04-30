@@ -3,7 +3,7 @@ entries:
   galaxy:
   - apiVersion: v2
     appVersion: "21.01"
-    created: "2021-04-30T14:28:53.476714-04:00"
+    created: "2021-04-30T16:20:49.641295-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -16,11 +16,33 @@ entries:
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
       version: 1.5.0
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible, and transparent computational biomedical research.
-    digest: e0bcbc11b58ec3cc62bb1f49a32da6ca1758f38876807ac2512760f65940c2a9
+    digest: bfdeed5b03b6bd26ad870eda717a75950d68890371345115a35e55427f25fce5
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     type: application
     urls:
     - https://ksuderman.github.io/helm_charts/galaxy-4.1.0-ks.1.tgz
     version: 4.1.0-ks.1
-generated: "2021-04-30T14:28:53.47036-04:00"
+  galaxykubeman:
+  - apiVersion: v1
+    appVersion: "21.01"
+    created: "2021-04-30T16:20:49.64883-04:00"
+    dependencies:
+    - alias: nfs
+      name: nfs-server-provisioner
+      repository: https://raw.githubusercontent.com/cloudve/helm-charts/anvil/
+      version: 1.1.2
+    - alias: cvmfs
+      name: galaxy-cvmfs-csi
+      repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
+      version: 1.6.0
+    - name: galaxy
+      repository: https://ksuderman.github.io/helm_charts/
+      version: 4.1.0-ks.1
+    description: A chart for deploying and managing a single Galaxy instance out-of-the-box on Managed Kubernetes clusters (GKE)
+    digest: 394fe20cbb3a780e679314309bdc116de9c3b634054d3b9ca443aebcff632ab3
+    name: galaxykubeman
+    urls:
+    - https://ksuderman.github.io/helm_charts/galaxykubeman-1.1.0-ks.1.tgz
+    version: 1.1.0-ks.1
+generated: "2021-04-30T16:20:49.636554-04:00"
