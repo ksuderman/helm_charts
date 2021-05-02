@@ -3,7 +3,7 @@ entries:
   galaxy:
   - apiVersion: v2
     appVersion: "21.01"
-    created: "2021-05-02T11:44:51.709225-04:00"
+    created: "2021-05-02T11:59:38.036597-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -26,7 +26,7 @@ entries:
   galaxykubeman:
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2021-05-02T11:44:51.716786-04:00"
+    created: "2021-05-02T11:59:38.044623-04:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -40,9 +40,9 @@ entries:
       repository: https://ksuderman.github.io/helm_charts/
       version: 4.1.0-ks.1
     description: A chart for deploying and managing a single Galaxy instance out-of-the-box on Managed Kubernetes clusters (GKE)
-    digest: 394fe20cbb3a780e679314309bdc116de9c3b634054d3b9ca443aebcff632ab3
+    digest: 22a0cb5913b0634fb6e855bba6d15c6127ac68e58239515b8d1966ac70bd05fa
     name: galaxykubeman
     urls:
     - https://ksuderman.github.io/helm_charts/galaxykubeman-1.1.0-ks.1.tgz
     version: 1.1.0-ks.1
-generated: "2021-05-02T11:44:51.703088-04:00"
+generated: "2021-05-02T11:59:38.029513-04:00"
