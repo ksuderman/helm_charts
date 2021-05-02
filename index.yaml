@@ -3,7 +3,29 @@ entries:
   galaxy:
   - apiVersion: v2
     appVersion: "21.01"
-    created: "2021-05-02T11:59:38.036597-04:00"
+    created: "2021-05-02T12:28:01.587934-04:00"
+    dependencies:
+    - alias: postgresql
+      condition: postgresql.deploy
+      name: postgres-operator
+      repository: https://raw.githubusercontent.com/zalando/postgres-operator/v1.6.1/charts/postgres-operator/
+      version: 1.6.1
+    - alias: cvmfs
+      condition: cvmfs.deploy
+      name: galaxy-cvmfs-csi
+      repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
+      version: 1.5.0
+    description: Chart for Galaxy, an open, web-based platform for accessible, reproducible, and transparent computational biomedical research.
+    digest: 082a07a161e4d1792d347b9972f0755e03e26b86f0ec041d1591fd6e147833f2
+    icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
+    name: galaxy
+    type: application
+    urls:
+    - https://ksuderman.github.io/helm_charts/galaxy-99.0.0.tgz
+    version: 99.0.0
+  - apiVersion: v2
+    appVersion: "21.01"
+    created: "2021-05-02T12:28:01.580961-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -26,7 +48,7 @@ entries:
   galaxykubeman:
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2021-05-02T11:59:38.044623-04:00"
+    created: "2021-05-02T12:28:01.596407-04:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -45,4 +67,4 @@ entries:
     urls:
     - https://ksuderman.github.io/helm_charts/galaxykubeman-1.1.0-ks.1.tgz
     version: 1.1.0-ks.1
-generated: "2021-05-02T11:59:38.029513-04:00"
+generated: "2021-05-02T12:28:01.574998-04:00"
