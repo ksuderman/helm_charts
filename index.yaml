@@ -3,7 +3,7 @@ entries:
   galaxy:
   - apiVersion: v2
     appVersion: "21.01"
-    created: "2021-04-30T16:20:49.641295-04:00"
+    created: "2021-05-02T11:44:51.709225-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -16,7 +16,7 @@ entries:
       repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
       version: 1.5.0
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible, and transparent computational biomedical research.
-    digest: bfdeed5b03b6bd26ad870eda717a75950d68890371345115a35e55427f25fce5
+    digest: d5d98497aa8c102f0ae1d06a43ea46fe170ca4bd87a66367a99b13f497ab30e0
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     type: application
@@ -26,7 +26,7 @@ entries:
   galaxykubeman:
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2021-04-30T16:20:49.64883-04:00"
+    created: "2021-05-02T11:44:51.716786-04:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -45,4 +45,4 @@ entries:
     urls:
     - https://ksuderman.github.io/helm_charts/galaxykubeman-1.1.0-ks.1.tgz
     version: 1.1.0-ks.1
-generated: "2021-04-30T16:20:49.636554-04:00"
+generated: "2021-05-02T11:44:51.703088-04:00"
