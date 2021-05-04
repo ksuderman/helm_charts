@@ -1,4 +1,6 @@
 
+all: index update
+
 help:
 	@echo "\nGOALS"
 	@echo "    help   - print this help and exit"
@@ -13,6 +15,4 @@ update:
 	git add index.yaml *.tgz
 	git commit -m "Index update"
 	git push origin master
-
-all: index update
 
