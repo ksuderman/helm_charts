@@ -3,7 +3,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2022-03-23T13:55:46.65554-04:00"
+    created: "2022-05-05T13:11:52.260446-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -24,7 +24,7 @@ entries:
     version: 99.0.0
   - apiVersion: v2
     appVersion: "22.01"
-    created: "2022-03-23T13:55:46.649682-04:00"
+    created: "2022-05-05T13:11:52.251257-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -51,7 +51,7 @@ entries:
     version: 4.10.2
   - apiVersion: v2
     appVersion: "21.01"
-    created: "2022-03-23T13:55:46.641443-04:00"
+    created: "2022-05-05T13:11:52.243157-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -72,10 +72,21 @@ entries:
     urls:
     - https://ksuderman.github.io/helm_charts/galaxy-4.1.0-ks.1.tgz
     version: 4.1.0-ks.1
+  galaxy-cvmfs-csi:
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: "2022-05-05T13:11:52.261187-04:00"
+    description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
+      for Galaxy repositories
+    digest: 3cecd994a2a506be066b851b91957d20a50c13ac1aeac28054a4cd030454b33f
+    name: galaxy-cvmfs-csi
+    urls:
+    - https://ksuderman.github.io/helm_charts/galaxy-cvmfs-csi-1.6.2.tgz
+    version: 1.6.2
   galaxykubeman:
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2022-03-23T13:55:46.673285-04:00"
+    created: "2022-05-05T13:11:52.276504-04:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -97,7 +108,7 @@ entries:
     version: 99.0.0
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2022-03-23T13:55:46.6638-04:00"
+    created: "2022-05-05T13:11:52.267369-04:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -117,4 +128,4 @@ entries:
     urls:
     - https://ksuderman.github.io/helm_charts/galaxykubeman-1.1.0-ks.1.tgz
     version: 1.1.0-ks.1
-generated: "2022-03-23T13:55:46.636683-04:00"
+generated: "2022-05-05T13:11:52.236577-04:00"
