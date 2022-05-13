@@ -3,7 +3,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2022-05-12T19:38:20.117056-04:00"
+    created: "2022-05-13T10:22:44.523294-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -24,7 +24,7 @@ entries:
     version: 99.0.0
   - apiVersion: v2
     appVersion: "22.01"
-    created: "2022-05-12T19:38:20.108518-04:00"
+    created: "2022-05-13T10:22:44.514103-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -51,7 +51,7 @@ entries:
     version: 4.10.2
   - apiVersion: v2
     appVersion: "21.01"
-    created: "2022-05-12T19:38:20.101152-04:00"
+    created: "2022-05-13T10:22:44.5084-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -75,10 +75,10 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2022-05-12T19:38:20.117767-04:00"
+    created: "2022-05-13T10:22:44.524071-04:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
-    digest: ab463eee5417ef560a2391169a71a58f9ccf67d8c53b2933ac0ce71f0c531d8e
+    digest: 2faa90d06a256cc125b91b15e6f28062718f2c0456f121fbb12d87f00a288fc6
     name: galaxy-cvmfs-csi
     urls:
     - https://ksuderman.github.io/helm_charts/galaxy-cvmfs-csi-1.6.2.tgz
@@ -86,7 +86,7 @@ entries:
   galaxykubeman:
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2022-05-12T19:38:20.133524-04:00"
+    created: "2022-05-13T10:22:44.547167-04:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -108,7 +108,7 @@ entries:
     version: 99.0.0
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2022-05-12T19:38:20.123946-04:00"
+    created: "2022-05-13T10:22:44.532317-04:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -128,4 +128,4 @@ entries:
     urls:
     - https://ksuderman.github.io/helm_charts/galaxykubeman-1.1.0-ks.1.tgz
     version: 1.1.0-ks.1
-generated: "2022-05-12T19:38:20.092969-04:00"
+generated: "2022-05-13T10:22:44.494758-04:00"
