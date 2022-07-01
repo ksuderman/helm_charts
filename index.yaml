@@ -3,7 +3,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2022-07-01T12:07:34.286514-05:00"
+    created: "2022-07-01T12:47:08.720645-05:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -24,7 +24,7 @@ entries:
     version: 99.0.0
   - apiVersion: v2
     appVersion: "22.01"
-    created: "2022-07-01T12:07:34.280265-05:00"
+    created: "2022-07-01T12:47:08.712778-05:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -58,7 +58,41 @@ entries:
     version: 4.11.0-s3fs
   - apiVersion: v2
     appVersion: "22.01"
-    created: "2022-07-01T12:07:34.271538-05:00"
+    created: "2022-07-01T12:47:08.707517-05:00"
+    dependencies:
+    - alias: postgresql
+      condition: postgresql.deploy
+      name: postgres-operator
+      repository: https://raw.githubusercontent.com/zalando/postgres-operator/master/charts/postgres-operator/
+      tags:
+      - deploy-postgres
+      version: 1.7.0
+    - alias: cvmfs
+      condition: cvmfs.deploy
+      name: galaxy-cvmfs-csi
+      repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
+      tags:
+      - deploy-cvmfs
+      version: 1.6.0
+    - alias: s3csi
+      condition: s3csi.deploy
+      name: csi-s3
+      repository: https://raw.githubusercontent.com/cloudve/helm-charts/master/
+      tags:
+      - deploy-s3csi
+      version: 0.30.9
+    description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
+      and transparent computational biomedical research.
+    digest: eeaf46dc92bb5cdc8794bbd41a06724bcba6d2d5ff93fefb63063b32bce88a9b
+    icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
+    name: galaxy
+    type: application
+    urls:
+    - https://ksuderman.github.io/helm_charts/galaxy-4.11.0-geesefs.tgz
+    version: 4.11.0-geesefs
+  - apiVersion: v2
+    appVersion: "22.01"
+    created: "2022-07-01T12:47:08.698416-05:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -85,7 +119,7 @@ entries:
     version: 4.10.2
   - apiVersion: v2
     appVersion: "21.01"
-    created: "2022-07-01T12:07:34.264027-05:00"
+    created: "2022-07-01T12:47:08.689844-05:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -109,7 +143,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2022-07-01T12:07:34.287699-05:00"
+    created: "2022-07-01T12:47:08.721594-05:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 2faa90d06a256cc125b91b15e6f28062718f2c0456f121fbb12d87f00a288fc6
@@ -120,7 +154,7 @@ entries:
   galaxykubeman:
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2022-07-01T12:07:34.305357-05:00"
+    created: "2022-07-01T12:47:08.754772-05:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -142,7 +176,7 @@ entries:
     version: 99.0.0
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2022-07-01T12:07:34.295517-05:00"
+    created: "2022-07-01T12:47:08.746897-05:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -162,4 +196,4 @@ entries:
     urls:
     - https://ksuderman.github.io/helm_charts/galaxykubeman-1.1.0-ks.1.tgz
     version: 1.1.0-ks.1
-generated: "2022-07-01T12:07:34.258019-05:00"
+generated: "2022-07-01T12:47:08.684984-05:00"
