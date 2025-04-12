@@ -3,7 +3,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2025-04-10T15:20:32.508545-04:00"
+    created: "2025-04-11T20:53:51.521642-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -24,10 +24,10 @@ entries:
     version: 99.0.0
   - apiVersion: v2
     appVersion: 24.2.0
-    created: "2025-04-10T15:20:32.504437-04:00"
+    created: "2025-04-11T20:53:51.517671-04:00"
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
-    digest: 12fb6e5e7c6da65005187ffc28dc78a288db086aee7d501eedc41f45096bfcb0
+    digest: 8d0e39ba854b272907131390de6990af46656d7f60a91eb942a280fe291af7a8
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     type: application
@@ -36,7 +36,7 @@ entries:
     version: 6.1.1
   - apiVersion: v2
     appVersion: 24.2.0
-    created: "2025-04-10T15:20:32.502497-04:00"
+    created: "2025-04-11T20:53:51.515705-04:00"
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: 53084cedac182881482917b4ccca0aef4385eb2a40ec608bebdb2489865162a1
@@ -48,7 +48,7 @@ entries:
     version: 6.1.0
   - apiVersion: v2
     appVersion: "24.0"
-    created: "2025-04-10T15:20:32.481444-04:00"
+    created: "2025-04-11T20:53:51.493536-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -89,7 +89,7 @@ entries:
     version: 5.14.0
   - apiVersion: v2
     appVersion: "24.0"
-    created: "2025-04-10T15:20:32.475435-04:00"
+    created: "2025-04-11T20:53:51.487324-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -130,7 +130,7 @@ entries:
     version: 5.10.0-anvil.1
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2025-04-10T15:20:32.500211-04:00"
+    created: "2025-04-11T20:53:51.513233-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -171,7 +171,7 @@ entries:
     version: 5.7.6-anvil.1
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-04-10T15:20:32.493608-04:00"
+    created: "2025-04-11T20:53:51.505828-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -205,7 +205,7 @@ entries:
     version: 5.3.1-anvil.1
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-04-10T15:20:32.487519-04:00"
+    created: "2025-04-11T20:53:51.499592-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.enabled
@@ -239,7 +239,7 @@ entries:
     version: 5.2.0-anvil.1
   - apiVersion: v2
     appVersion: "22.01"
-    created: "2025-04-10T15:20:32.46899-04:00"
+    created: "2025-04-11T20:53:51.481249-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -273,7 +273,7 @@ entries:
     version: 4.11.0
   - apiVersion: v2
     appVersion: "22.01"
-    created: "2025-04-10T15:20:32.514217-04:00"
+    created: "2025-04-11T20:53:51.527217-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -307,7 +307,7 @@ entries:
     version: 4.11.0-s3fs
   - apiVersion: v2
     appVersion: "22.01"
-    created: "2025-04-10T15:20:32.465627-04:00"
+    created: "2025-04-11T20:53:51.477693-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -341,7 +341,7 @@ entries:
     version: 4.11.0-geesefs
   - apiVersion: v2
     appVersion: "22.01"
-    created: "2025-04-10T15:20:32.462574-04:00"
+    created: "2025-04-11T20:53:51.473513-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -368,7 +368,7 @@ entries:
     version: 4.10.2
   - apiVersion: v2
     appVersion: "21.01"
-    created: "2025-04-10T15:20:32.455191-04:00"
+    created: "2025-04-11T20:53:51.470499-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -392,7 +392,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v2
     appVersion: 2.3.2
-    created: "2025-04-10T15:20:32.510839-04:00"
+    created: "2025-04-11T20:53:51.523482-04:00"
     dependencies:
     - alias: cvmfscsi
       name: cvmfs-csi
@@ -408,7 +408,7 @@ entries:
     version: 2.3.0
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-04-10T15:20:32.509662-04:00"
+    created: "2025-04-11T20:53:51.522781-04:00"
     dependencies:
     - alias: cvmfscsi
       name: cvmfs-csi
@@ -424,7 +424,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2025-04-10T15:20:32.509036-04:00"
+    created: "2025-04-11T20:53:51.522145-04:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 2faa90d06a256cc125b91b15e6f28062718f2c0456f121fbb12d87f00a288fc6
@@ -435,7 +435,7 @@ entries:
   galaxykubeman:
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2025-04-10T15:20:32.522784-04:00"
+    created: "2025-04-11T20:53:51.535579-04:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -457,7 +457,7 @@ entries:
     version: 99.0.0
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2025-04-10T15:20:32.517875-04:00"
+    created: "2025-04-11T20:53:51.530783-04:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -477,4 +477,4 @@ entries:
     urls:
     - https://ksuderman.github.io/helm_charts/galaxykubeman-1.1.0-ks.1.tgz
     version: 1.1.0-ks.1
-generated: "2025-04-10T15:20:32.452133-04:00"
+generated: "2025-04-11T20:53:51.46613-04:00"
