@@ -3,7 +3,7 @@ entries:
   galaxy:
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2025-05-16T15:41:34.433876-04:00"
+    created: "2025-06-28T13:08:39.282327-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -24,10 +24,10 @@ entries:
     version: 99.0.0
   - apiVersion: v2
     appVersion: 24.2.0
-    created: "2025-05-16T15:41:34.430086-04:00"
+    created: "2025-06-28T13:08:39.278104-04:00"
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
-    digest: 33358a6de03e932b9050deed9b67b69fb5dd8e2f7570f8ff3f5dce315ec51904
+    digest: 42b5bc7bbc8939e5cb8f2953a6aad285435bf06bde19fabd188dea262aa2d61b
     icon: https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png
     name: galaxy
     type: application
@@ -36,7 +36,7 @@ entries:
     version: 6.1.2
   - apiVersion: v2
     appVersion: 24.2.0
-    created: "2025-05-16T15:41:34.427822-04:00"
+    created: "2025-06-28T13:08:39.275681-04:00"
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: deb1782ac3892fb61e92290d40c553674998ac849a6441bd222c1b0c5187684a
@@ -48,7 +48,7 @@ entries:
     version: 6.1.1
   - apiVersion: v2
     appVersion: 24.2.0
-    created: "2025-05-16T15:41:34.424468-04:00"
+    created: "2025-06-28T13:08:39.272379-04:00"
     description: Chart for Galaxy, an open, web-based platform for accessible, reproducible,
       and transparent computational biomedical research.
     digest: 53084cedac182881482917b4ccca0aef4385eb2a40ec608bebdb2489865162a1
@@ -60,7 +60,7 @@ entries:
     version: 6.1.0
   - apiVersion: v2
     appVersion: "24.0"
-    created: "2025-05-16T15:41:34.400412-04:00"
+    created: "2025-06-28T13:08:39.249905-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -101,7 +101,7 @@ entries:
     version: 5.14.0
   - apiVersion: v2
     appVersion: "24.0"
-    created: "2025-05-16T15:41:34.393481-04:00"
+    created: "2025-06-28T13:08:39.2432-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -142,7 +142,7 @@ entries:
     version: 5.10.0-anvil.1
   - apiVersion: v2
     appVersion: "23.1"
-    created: "2025-05-16T15:41:34.42182-04:00"
+    created: "2025-06-28T13:08:39.269991-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -183,7 +183,7 @@ entries:
     version: 5.7.6-anvil.1
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-05-16T15:41:34.414716-04:00"
+    created: "2025-06-28T13:08:39.26215-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -217,7 +217,7 @@ entries:
     version: 5.3.1-anvil.1
   - apiVersion: v2
     appVersion: "22.05"
-    created: "2025-05-16T15:41:34.407584-04:00"
+    created: "2025-06-28T13:08:39.256234-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.enabled
@@ -251,7 +251,7 @@ entries:
     version: 5.2.0-anvil.1
   - apiVersion: v2
     appVersion: "22.01"
-    created: "2025-05-16T15:41:34.385718-04:00"
+    created: "2025-06-28T13:08:39.236258-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -285,7 +285,7 @@ entries:
     version: 4.11.0
   - apiVersion: v2
     appVersion: "22.01"
-    created: "2025-05-16T15:41:34.440017-04:00"
+    created: "2025-06-28T13:08:39.287828-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -319,7 +319,7 @@ entries:
     version: 4.11.0-s3fs
   - apiVersion: v2
     appVersion: "22.01"
-    created: "2025-05-16T15:41:34.382367-04:00"
+    created: "2025-06-28T13:08:39.232811-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -353,7 +353,7 @@ entries:
     version: 4.11.0-geesefs
   - apiVersion: v2
     appVersion: "22.01"
-    created: "2025-05-16T15:41:34.379002-04:00"
+    created: "2025-06-28T13:08:39.228998-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -380,7 +380,7 @@ entries:
     version: 4.10.2
   - apiVersion: v2
     appVersion: "21.01"
-    created: "2025-05-16T15:41:34.374573-04:00"
+    created: "2025-06-28T13:08:39.224473-04:00"
     dependencies:
     - alias: postgresql
       condition: postgresql.deploy
@@ -404,7 +404,7 @@ entries:
   galaxy-cvmfs-csi:
   - apiVersion: v2
     appVersion: 2.3.2
-    created: "2025-05-16T15:41:34.435881-04:00"
+    created: "2025-06-28T13:08:39.28455-04:00"
     dependencies:
     - alias: cvmfscsi
       name: cvmfs-csi
@@ -420,7 +420,7 @@ entries:
     version: 2.3.0
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-05-16T15:41:34.435082-04:00"
+    created: "2025-06-28T13:08:39.2837-04:00"
     dependencies:
     - alias: cvmfscsi
       name: cvmfs-csi
@@ -436,7 +436,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2025-05-16T15:41:34.434395-04:00"
+    created: "2025-06-28T13:08:39.282922-04:00"
     description: A Helm chart to deploy the CVMFS-CSI Plugin with a pre-built configuration
       for Galaxy repositories
     digest: 2faa90d06a256cc125b91b15e6f28062718f2c0456f121fbb12d87f00a288fc6
@@ -447,7 +447,7 @@ entries:
   galaxykubeman:
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2025-05-16T15:41:34.449105-04:00"
+    created: "2025-06-28T13:08:39.2967-04:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -469,7 +469,7 @@ entries:
     version: 99.0.0
   - apiVersion: v1
     appVersion: "21.01"
-    created: "2025-05-16T15:41:34.444335-04:00"
+    created: "2025-06-28T13:08:39.291791-04:00"
     dependencies:
     - alias: nfs
       name: nfs-server-provisioner
@@ -489,4 +489,4 @@ entries:
     urls:
     - https://ksuderman.github.io/helm_charts/galaxykubeman-1.1.0-ks.1.tgz
     version: 1.1.0-ks.1
-generated: "2025-05-16T15:41:34.370884-04:00"
+generated: "2025-06-28T13:08:39.22138-04:00"
